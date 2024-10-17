@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.woff?w2trdd') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@layer components {
+    .icon-inventory-transfer:before {
+        content: "\c703";
+    }
+
+    .icon-load-inventory:before {
+        content: "\c700";
+    }
+
+    .icon-pick-inventory:before {
+        content: "\c701";
+    }
+
+    .icon-receive-inventory:before {
+        content: "\c702";
+    }
+
+    .dark .stage::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        width: 24px;
+        height: 24px;
+        z-index: 1;
+        border-radius: 0 0 0 25px;
+        transform: translateY(-50%) rotate(225deg);
+        border-right: 4px solid #030712 !important;
+        border-top: 4px solid #030712 !important;
+    }
+
+    [dir="ltr"] .stage::before {
+        display: none;
+    }
+}

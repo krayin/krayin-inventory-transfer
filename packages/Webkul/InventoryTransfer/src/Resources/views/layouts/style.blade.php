@@ -1,0 +1,1 @@
+{{ vite()->set(['src/Resources/assets/css/app.css'], 'inventory_transfer') }}
