@@ -1,6 +1,6 @@
 # CHANGELOG for v2.0.x
 
-## **v2.0.2(08th October, 2024)** - _Release_
+## **v2.0.x(18th October, 2024)** - _Release_
 
 + Easily transfer inventory items between different bins within the same warehouse.
 
