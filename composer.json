@@ -1,0 +1,27 @@
+{
+    "name": "krayin/krayin-inventory-transfer",
+    "description": "Krayin Inventory transfer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@webkul.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\InventoryTransfer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\InventoryTransfer\\Providers\\InventoryTransferServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
